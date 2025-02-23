@@ -72,7 +72,7 @@ void app_main(void)
     esp_err_t ret = i2c_master_cmd_begin(I2C_MASTER_NUM, cmd, 1000 / portTICK_PERIOD_MS);
     i2c_cmd_link_delete(cmd);
     if (ret != ESP_OK) {
-        ESP_LOGE(TAG, "Failed to wake up MPU6050");
+        ESP_LOGE(TAG, "Failed to wake up MPU6050 is ok");
         return;
     }
 
