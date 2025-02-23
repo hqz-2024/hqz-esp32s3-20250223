@@ -1,0 +1,14 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPathWin": "q:\\Espressif\\frameworks\\esp-idf-v5.3.2",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.portWin": "COM4",
+    "idf.toolsPathWin": "q:\\Espressif\\tools",
+    "files.associations": {
+        "hqz-i2c.h": "c",
+        "esp_err.h": "c",
+        "esp_log.h": "c"
+    }
+}
