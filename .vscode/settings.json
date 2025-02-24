@@ -1,6 +1,6 @@
 {
     "C_Cpp.intelliSenseEngine": "default",
-    "idf.espIdfPathWin": "q:\\Espressif\\frameworks\\esp-idf-v5.3.2",
+    "idf.espIdfPathWin": "q:\\Espressif\\frameworks\\esp-idf-v5.4",
     "idf.openOcdConfigs": [
         "board/esp32s3-builtin.cfg"
     ],
@@ -9,6 +9,8 @@
     "files.associations": {
         "hqz-i2c.h": "c",
         "esp_err.h": "c",
-        "esp_log.h": "c"
-    }
+        "esp_log.h": "c",
+        "driver_mpu6050.h": "c"
+    },
+    "idf.pythonInstallPath": "q:\\Espressif\\tools\\tools\\idf-python\\3.11.2\\python.exe"
 }
